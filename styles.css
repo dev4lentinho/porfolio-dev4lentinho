@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #121212;
+    color: white;
+    margin: 0;
+}
+
+.menu {
+    display: inline-block;
+    list-style: none;
+    font-family: 'Gamja Flower', sans-serif;
+    color: black;
+    font-size: 28px;
+    color: white;
+    position: relative;
+    left: 420px;
+     }
+
+#principal {
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    left: 40px;
+}
+
+.principallink {
+    font-family: 'Rubik Scribble', system-ui;
+    margin: 14px 0 0 20px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.dev {
+    color: rgb(239, 1, 227);
+}
+
+h1 a:hover {
+    color: rgb(239, 1, 227);
+    transition: all 0.7s;
+    font-size: 33px;
+}
+
+li {
+    float: left;
+    text-align: center;
+    width: 80px;
+    margin: 14px 0 0 0;
+    padding: 10px;
+  }
+
+li:hover {
+    color: rgb(239, 1, 227);
+    cursor: pointer;
+    transition: all 0.7s;
+
+}
+
+.saludo {
+    font-family: 'Rubik Scribble', system-ui;
+    font-size: 70px;
+    position: relative;
+    top: 120px;
+    left: -440px;
+    color: rgb(239, 1, 227);
+    display: inline;
+}
+
+.dev4lentinhophoto {
+    border-radius: 50%;
+    width: 400px;
+    position: relative;
+    left: 830px;
+    box-shadow: 0 10px 40px 0 #ef01e3c7;
+
+}
+
+.saludoSpan {
+    color: white;
+}
+
+.maquina-escribir {
+    
+    display: inline-block;
+    position: relative;
+    top: -264px;
+    font-family: 'Gamja Flower', sans-serif;
+    font-size: 29px;
+    left: -84px;
+    color: greenyellow;
+    white-space: nowrap; /* los espacios en blanco no rompen la línea */        
+    width: 20ch; /* el ancho será el número de caracteres que tiene nuestra línea */
+    animation: escribiendo 2s steps(20);          
+    overflow: hidden;
+}
+
+.cursor{
+    animation: 0.6s parpadeo-cursor infinite;
+  }
+
+  @keyframes escribiendo {
+    from {
+      width: 0;
+    }
+  }
+
+  @keyframes parpadeo-cursor {
+    50% {
+      opacity: 0;
+    }
+  }
+
+
+
+
